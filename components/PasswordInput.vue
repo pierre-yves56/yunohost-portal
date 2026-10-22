@@ -37,7 +37,6 @@ const toggleLabel = computed(() => {
       class="btn btn-ghost btn-sm btn-square absolute right-1 top-1/2 -translate-y-1/2"
       :aria-label="toggleLabel"
       :aria-controls="props.name"
-      :aria-pressed="passwordVisible"
       :title="toggleLabel"
       @click="passwordVisible = !passwordVisible"
     >
